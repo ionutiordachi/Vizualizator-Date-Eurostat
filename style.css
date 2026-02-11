@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    bottom: 2px;
+    border-width: 2px;
+    padding: 20px;
+    background: radial-gradient(ellipse 100% 80% at 50% 0%, rgba(88, 86, 214, 0.1) 0%, transparent 60%),
+        transparent;
+    color: aliceblue;
+    border: 2px solid white;
+}
+
+body {
+    background: radial-gradient(ellipse 80% 50% at 20% 40%, rgba(88, 86, 214, 0.15) 0%, transparent 50%),
+        radial-gradient(ellipse 60% 50% at 80% 70%, rgba(59, 130, 246, 0.12) 0%, transparent 50%), #1a1d29;
+    min-height: 100vh;
+
+}
+
+select {
+
+    font: inherit;
+    font-size: 1rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #42a1ec;
+    line-height: 1rem;
+    border-radius: 3px;
+    padding: 0.25em 1em 0.25em 1em;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+select:focus {
+    border-color: #ffffff;
+}
+
+option {
+    font-family: inherit;
+    min-height: 1.5em;
+    background-color: rgb(255, 255, 255);
+}
+
+.controls {
+    padding: 10px;
+    text-align: right;
+}
+
+#enterButton {
+    display: inline-block;
+    margin-left: auto;
+    font-size: 1rem;
+    background-image: linear-gradient(#42a1ec, #0070C9);
+    font-family: inherit;
+    border: 1px solid #0077CC;
+    min-width: 30px;
+    box-sizing: border-box;
+    padding: 4px 15px;
+    text-align: right;
+    white-space: nowrap;
+}
+
+#enterButton:hover {
+    background-image: linear-gradient(#51A9EE, #147BCD);
+    border-color: #1482D0;
+    text-decoration: none;
+}
+
+#enterButton:active {
+    background-image: linear-gradient(#3D94D9, #0067B9);
+    border-color: #006DBC;
+    outline: none;
+}
+
+#enterButton:focus {
+    font-weight: bold;
+    outline: none;
+}
+
+section {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 30px;
+}
+
+section h2 {
+    font: inherit;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #e2e8f0;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(66, 161, 236, 0.3);
+}
+
+section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+section.hidden {
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+#lineChart {
+    font: inherit;
+    background: white;
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    border: 2px solid #0074d9;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+#chart-tooltip {
+    background: rgba(30, 41, 59, 0.95) !important;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border-radius: 6px !important;
+    padding: 8px 12px !important;
+    font-size: 0.85rem !important;
+    color: #e2e8f0 !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4) !important;
+}
+
+#bubbleChart {
+    background: white;
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    border: 2px solid #0074d9;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+#playButton {
+    display: block;
+    margin: 20px auto;
+    font-size: 1rem;
+    background-image: linear-gradient(#42a1ec, #0070C9);
+    font-family: "Ubuntu", sans-serif;
+    border: 1px solid #0077CC;
+    padding: 8px 20px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+#playButton:hover {
+    background-image: linear-gradient(#51A9EE, #147BCD);
+    border-color: #1482D0;
+}
+
+#playButton:active {
+    background-image: linear-gradient(#3D94D9, #0067B9);
+    border-color: #006DBC;
+}
+
+#dataTable {
+    text-align: center;
+    width: 100%;
+    background: white;
+    border: 2px solid #0074d9;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    border-collapse: collapse;
+}
+
+#dataTable thead {
+    background: linear-gradient(135deg, #42a1ec, #0074d9);
+    color: white;
+}
+
+#dataTable th {
+    padding: 12px 16px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+#dataTable td {
+    padding: 10px 16px;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 0.95rem;
+    color: #1a1d29;
+}
+
+#dataTable tbody tr:last-child td {
+    border-bottom: none;
+}
+
+#dataTable tbody tr:hover {
+    background: rgba(66, 161, 236, 0.1);
+}
+
+#dataTable tfoot {
+    background: #f0f8ff;
+    font-weight: bold;
+    border-top: 3px solid #0074d9;
+}
+
+#dataTable tfoot td {
+    padding: 12px 16px;
+}
