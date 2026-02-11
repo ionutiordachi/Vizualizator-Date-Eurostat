@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Vizualizator Date Eurostat
 
 ## Descriere Proiect
