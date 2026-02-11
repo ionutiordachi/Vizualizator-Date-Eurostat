@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Vizualizator Date Eurostat
 
 ## Descriere Proiect
@@ -70,3 +71,6 @@ Acest proiect demonstrează:
 - Atenție la UX și detalii vizuale
 
 Proiectul poate fi extins cu noi indicatori, filtre, export date, integrare cu framework-uri moderne etc.
+=======
+# Vizualizator-Date-Eurostat
+>>>>>>> ece699fceb0b6b8703b79eb144bea740d72e8e2a
