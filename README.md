@@ -62,8 +62,7 @@ https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/demo_mlexpec
 
 ---
 
-### Pentru angajatori
-Acest proiect demonstrează:
+Prin acest proiect am reusit sa capăt:
 - Abilități de preluare și procesare date din API-uri publice
 - Vizualizare interactivă cu SVG și Canvas
 - UI modern și responsive
