@@ -1,4 +1,4 @@
-# 🟢 Vezi live: [https://vizualizatordateeurostat.netlify.app/](https://vizualizatordateeurostat.netlify.app/)
+# Vezi live: [https://vizualizatordateeurostat.netlify.app/](https://vizualizatordateeurostat.netlify.app/)
 
 # Vizualizator Date Eurostat
 
