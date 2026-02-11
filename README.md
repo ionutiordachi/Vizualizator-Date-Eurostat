@@ -1,3 +1,5 @@
+# 🟢 Vezi live: [https://vizualizatordateeurostat.netlify.app/](https://vizualizatordateeurostat.netlify.app/)
+
 # Vizualizator Date Eurostat
 
 ## Descriere Proiect
